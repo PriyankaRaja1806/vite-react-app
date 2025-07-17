@@ -1,0 +1,56 @@
+
+
+/* src/ParallaxPage.module.css */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.parallax2 {
+  height: 400px;
+  /* No background-image here! Set in JSX */
+}
+
+.parallax3 {
+  height: 400px;
+  /* No background-image here! Set in JSX */
+}
+
+.parallax-text {
+  position: relative;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 6em;
+  transition: all 0.2s;
+  border: none;
+  font-family: inherit;
+  color: black;
+  background-color: white;
+}
+
+.content {
+  padding: 2rem;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.dark-section {
+  padding: 2rem;
+  background: #222;
+  color: #fff;
+}
