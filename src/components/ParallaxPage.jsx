@@ -1,4 +1,3 @@
-// src/ParallaxPage.jsx
 import React from 'react';
 import styles from './ParallaxPage.module.css';
 import img9 from '../assets/img9.jpg';
@@ -10,8 +9,8 @@ function ParallaxPage() {
     <div>
       <div
         className={`${styles.parallax} ${styles.parallax1}`}
-        style={{ backgroundImage: `url(${img9})` }}
-      >
+        style={{ backgroundImage: `url(${img9})` }}>
+      
         <button className={styles['parallax-text']}>MOON</button>
       </div>
 
@@ -22,9 +21,9 @@ function ParallaxPage() {
         </p>
       </div>
 
-      <div>
+      <div
         className={`${styles.parallax} ${styles.parallax2}`}
-        style={{ backgroundImage: `url(${img10})` }}
+        style={{ backgroundImage: `url(${img10})` }}>
       
         <button className={styles['parallax-text']}>MOUNTAINS</button>
       </div>

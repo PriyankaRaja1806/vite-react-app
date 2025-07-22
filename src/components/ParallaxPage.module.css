@@ -1,6 +1,10 @@
 
-
-/* src/ParallaxPage.module.css */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .parallax {
   background-attachment: fixed;
   background-position: center;
@@ -15,18 +19,27 @@
 
 
 .parallax2 {
-  height: 400px;
-  /* No background-image here! Set in JSX */
+  height: 800px;
+  
 }
 
 .parallax3 {
-  height: 400px;
-  /* No background-image here! Set in JSX */
+  
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .parallax-text {
   position: relative;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
@@ -47,10 +60,18 @@
   padding: 2rem;
   background: #f9f9f9;
   color: #333;
+  font-size: 50px;
+  font-weight:normal;
+  text-align:center;
+  
 }
 
 .dark-section {
   padding: 2rem;
   background: #222;
   color: #fff;
+  font-size: 50px;
+  font-weight:normal;
+  text-align: center;
+ 
 }

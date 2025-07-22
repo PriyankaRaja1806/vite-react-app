@@ -1,11 +1,19 @@
 
 import React from "react";
 import ParallaxPage from "./components/ParallaxPage";
+import Parallax from "./components/Parallax";
 
 function App() {
   return (
      <div>
-         <ParallaxPage />
+
+          
+          
+         <Parallax />
+          <div style={{ height: '30vh', background: '#0a2a43' }}></div>
+
+          <ParallaxPage />
+         
      </div>
 
   )
