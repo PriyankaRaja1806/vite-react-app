@@ -15,7 +15,7 @@ function Parallax() {
     const mountainEl = document.getElementById('mountain');
     const roadEl = document.getElementById('road');
     const textEl = document.getElementById('text');
-
+    
    const handleScroll = () => {
 const value = window.scrollY;
 if (bgEl) bgEl.style.top = value * 0.5 + 'px';
@@ -30,6 +30,7 @@ if (textEl) {
   const newTop = baseTop + Math.min(scroll * 0.3, maxShift);
   textEl.style.top = `${newTop}px`;
 }
+
 }; 
 
     window.addEventListener('scroll', handleScroll);
@@ -44,6 +45,7 @@ if (textEl) {
       <img src={mountain} id="mountain" alt="mountain" />
       <img src={road} id="road" alt="road" />
       <h2 id="text">Moonelle</h2>
+      
     </section>
   
   );

@@ -10,7 +10,7 @@ function App() {
           
           
          <Parallax />
-          <div style={{ height: '30vh', background: '#0a2a43' }}></div>
+          <div style={{ height: '20vh', background: '#0a2a43' }}></div>
 
           <ParallaxPage />
          

@@ -43,14 +43,29 @@ section img#bg{
 #text {
   position: absolute;
   color: #fff;
-  font-size: 130px;
+  font-size: 300px;
   font-weight: bolder;
+  font-family: 'Great Vibes', cursive;
   z-index: 1; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: top 0.05s linear;
+  text-shadow: 0 0 10px #00f, 0 0 20px #0ff;
+  animation: typing 3s steps(20, end) forwards, blink 0.7s step-end infinite;
 }
+
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 18ch; } /* Adjust based on text length */
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+
 
 #road{
   z-index: 3;
@@ -64,4 +79,5 @@ section img#bg{
   z-index: 1;
   position: absolute;
 }
+
 
