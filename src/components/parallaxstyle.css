@@ -81,3 +81,34 @@ section img#bg{
 }
 
 
+
+@media (max-width: 1024px) {
+  #text {
+    font-size: 8vw;
+  }
+
+
+
+  #bg {
+    height: 60vh;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  #text {
+    font-size: 12vw;
+  }
+
+  
+
+  #bg {
+    height: 50vh;
+  }
+
+  #mountain,
+  #moon,
+  #road {
+    object-fit: contain;
+  }
+}
